@@ -31,7 +31,7 @@ public:
                 break;
             }
         }
-        if(flag==NULL) return NULL;
+        if(flag==false) return NULL;
         else{
             ListNode* temp=head;
             while(temp!=slow){
